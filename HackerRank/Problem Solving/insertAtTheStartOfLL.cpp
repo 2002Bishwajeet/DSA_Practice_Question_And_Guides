@@ -6,6 +6,12 @@ struct node
 {
     int data;
     node *next;
+
+    node(int x)
+    {
+        data = x;
+        next = NULL;
+    }
 };
 
 int main()
@@ -18,8 +24,7 @@ int main()
     for (int i = 0; i < n; i++)
     {
         cin >> ar[i];
-        node *temp = new node;
-        temp->data = ar[i];
+        node *temp = new node(ar[i]);
         temp->next = head;
         head = temp;
     }
