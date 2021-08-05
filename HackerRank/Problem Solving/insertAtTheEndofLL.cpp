@@ -12,6 +12,7 @@ int main()
 {
     // Insertion at the end of the linked list
     node *head = NULL;
+    long long 
     int n;
     cin >> n;
     int a[n];
