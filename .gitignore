@@ -2,3 +2,4 @@
 .cph/
 *.bin*
 temp/
+*.exe
