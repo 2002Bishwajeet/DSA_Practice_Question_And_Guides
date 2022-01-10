@@ -10,8 +10,7 @@ struct node
 
 int main()
 {
-    // Insertion at the end of the linked list
-    node *head = NULL;
+   
     long long 
     int n;
     cin >> n;
@@ -20,6 +19,8 @@ int main()
     {
         cin >> a[i];
     }
+     // Insertion at the end of the linked list
+    node *head = NULL;
     for (int i = 0; i < n; i++)
     {
         node *temp = new node;
@@ -40,6 +41,8 @@ int main()
         }
     }
     node *temp1 = head;
+
+    // Displaying the linked list
     while (temp1 != NULL)
     {
         cout << temp1->data << " ";
